@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Nexora.CPU/Nexora.CPU.csproj" />
+    <ProjectReference Include="../Nexora.Kernel/Nexora.Kernel.csproj" />
+    <ProjectReference Include="../Nexora.Memory/Nexora.Memory.csproj" />
+  </ItemGroup>
+
+</Project>
